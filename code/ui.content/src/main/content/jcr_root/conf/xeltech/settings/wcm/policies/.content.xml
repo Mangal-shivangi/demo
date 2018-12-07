@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2018-12-05T11:53:45.207+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="xeltech Site Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:xeltech]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="xeltech/components/content/image"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-10-24T13:48:18.764+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <xeltech jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="xeltech Site Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/xeltech/components/form/button,/apps/xeltech/components/form/hidden,/apps/xeltech/components/form/options,/apps/xeltech/components/form/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+            <mycomponents jcr:primaryType="nt:unstructured">
+                <title jcr:primaryType="nt:unstructured"/>
+                <Carousel jcr:primaryType="nt:unstructured"/>
+                <footer jcr:primaryType="nt:unstructured"/>
+            </mycomponents>
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1540967920464
+                        jcr:lastModified="{Date}2018-10-31T12:31:43.633+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="dark policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1540967920464>
+                    <policy_38043467743696
+                        jcr:lastModified="{Date}2018-11-23T12:10:28.065+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Policy CSS"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[textclientlibs,xeltech.base,xeltech.components.base1,xeltech.components.title1,xeltech.navigation]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_38043467743696>
+                </page>
+            </structure>
+            <content jcr:primaryType="nt:unstructured">
+                <image jcr:primaryType="nt:unstructured"/>
+                <title jcr:primaryType="nt:unstructured"/>
+                <navigation jcr:primaryType="nt:unstructured"/>
+            </content>
+        </components>
+    </xeltech>
+</jcr:root>

@@ -1,0 +1,33 @@
+ .cmp-navigation ul{
+	float:left;
+        list-style:none;
+    }
+
+    .cmp-navigation ul li{
+        float: left;
+}
+
+   .cmp-navigation ul li a{
+    z-index: 1;
+    background: none;
+    color: #000;
+        font-size: 12.5px;
+    text-transform: uppercase;
+        position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.cmp-navigation ul li a:hover{
+	color:#ff7508;
+           text-decoration:none;
+}
+
+
+.navigation {
+    position: fixed;
+    z-index: 99;
+    top: 27px;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+}

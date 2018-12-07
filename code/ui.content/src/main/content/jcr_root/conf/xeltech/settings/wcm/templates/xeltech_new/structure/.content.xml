@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2018-10-31T18:32:53.388+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/xeltech/settings/wcm/templates/xeltech_new"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="xeltech/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2018-10-31T15:03:21.232+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:03:21.232+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/header"/>
+            <carousel
+                jcr:created="{Date}2018-10-31T15:04:48.591+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:04:48.591+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/Carousel"/>
+            <title
+                jcr:created="{Date}2018-10-31T15:05:20.033+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:07:47.322+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="WHAT WE DO"
+                sling:resourceType="xeltech/components/mycomponents/title"/>
+            <text
+                jcr:created="{Date}2018-10-31T15:05:27.664+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:08:02.583+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/text"
+                text="&lt;p>XeliumTech is your one stop Enterprise Software Solutions Company. Our passion for creativity, strong multitechnology development lineage, peripheral R&amp;amp;D services, 24X7 Support team make us a preferred choice for startups to big brands globally.&lt;/p>&#xd;&#xa;&lt;p>Our &amp;quot;CUSTOMER FIRST&amp;quot; approach ensures impeccable communication and hence solidarity with our esteemed customers. We have dedicated Business Analsysts, Project Controllers, Delivery Managers to ensure your Vision is seamlessly transformed into a blissful reality.&lt;/p>&#xd;&#xa;&lt;p>We are a diverse technology solutions company committed to cater to excellent user-centric solutions for all your IT related requirements. We are focused on assisting our clients to build notable and successful business solutions on Web to Mobile from idea conceptualization to deployment.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <title_2123623878
+                jcr:created="{Date}2018-10-31T15:06:06.224+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:09:20.900+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="OUR SERVICES"
+                sling:resourceType="xeltech/components/mycomponents/title"/>
+            <title_1369937236
+                jcr:created="{Date}2018-10-31T15:06:32.447+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:09:58.534+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="OUR APPROACH"
+                sling:resourceType="xeltech/components/mycomponents/title"/>
+            <text_255254698
+                jcr:created="{Date}2018-10-31T15:10:22.584+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:10:48.481+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/text"
+                text="&lt;p>We follow Best Practices, Streamined Processes and put Cohesive Planned efforts to ensure On-time and High Quality Deliverables&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <text_1993344432
+                jcr:created="{Date}2018-10-31T15:11:41.207+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:11:56.746+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/text"
+                text="&lt;ul>&#xd;&#xa;&lt;li>Customer Onboarding and Brainstorming Meetings&lt;/li>&#xd;&#xa;&lt;li>Understand and Recommend Industry Standard Do’s and Don’ts&lt;/li>&#xd;&#xa;&lt;li>Seamless communication and collaboration with Customer.&lt;/li>&#xd;&#xa;&lt;li>Identify the Best Technology &amp;amp; Cost effective Implementation for Client Project&lt;/li>&#xd;&#xa;&lt;li>Walk through User Stories, Wireframes &amp;amp; Prototypes for Customer Understanding&lt;/li>&#xd;&#xa;&lt;li>Devise Development plan and GO-TO-MARKET strategy&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Create Adapative Smooth Rich User Interfaces&lt;/li>&#xd;&#xa;&lt;li>Agile Development, Sprints, Reviews, Scrum Meetings, Kanban&lt;/li>&#xd;&#xa;&lt;li>Synchronized Multi-environment Testing &amp;amp; Benchmarking&lt;/li>&#xd;&#xa;&lt;li>Deployment, Staging, Production and Launch&lt;/li>&#xd;&#xa;&lt;li>Digital Marketing Campaigns for Customer Engagement&lt;/li>&#xd;&#xa;&lt;li>24X7 Support Team to address you and your Customer Needs&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                textIsRich="true"/>
+            <title_440747710
+                jcr:created="{Date}2018-10-31T15:12:47.993+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:12:52.607+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="ABOUT US"
+                sling:resourceType="xeltech/components/mycomponents/title"/>
+            <text_2085859269
+                jcr:created="{Date}2018-10-31T15:13:02.006+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:13:23.560+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/text"
+                text="&lt;p>Our prime mantras are Quality, Values and Integrity. We, at Xelium Technologies incorporate these mantras in our work, to the core. We constantly innovate and improve our processes to offer comprehensive Offshore and Onsite Cost-effective High Quality software services to our customers. We make customers for a lifetime.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image_1313337017
+                jcr:created="{Date}2018-10-31T15:14:31.203+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:14:31.203+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/content/image"
+                fileReference="/content/dam/xeltech/company.jpg"/>
+            <title_167735071
+                jcr:created="{Date}2018-10-31T15:15:36.881+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:15:59.302+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="CONTACT US"
+                sling:resourceType="xeltech/components/mycomponents/title"/>
+            <text_1241839792
+                jcr:created="{Date}2018-10-31T15:16:25.130+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:16:58.394+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/text"
+                text="&lt;p style=&quot;text-align: center;&quot;>Get in Touch&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <copy_of_copy_of_text
+                jcr:created="{Date}2018-10-31T15:20:30.049+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:20:30.049+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/Copy of Copy of text"/>
+            <copy_of_copy_of_text_1326001239
+                jcr:created="{Date}2018-10-31T15:21:33.514+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:21:33.514+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/Copy of Copy of text"/>
+            <copy_of_copy_of_text_1180337491
+                jcr:created="{Date}2018-10-31T15:25:26.533+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T15:25:26.533+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/Copy of Copy of text"/>
+            <text_1290381691
+                jcr:created="{Date}2018-10-31T18:31:44.082+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T18:32:19.573+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Name"
+                sling:resourceType="xeltech/components/form/text"
+                name="Name"
+                rows="2"
+                type="text"/>
+            <text_364654971
+                jcr:created="{Date}2018-10-31T18:31:56.627+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T18:32:41.675+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Email"
+                sling:resourceType="xeltech/components/form/text"
+                name="Email"
+                required="true"
+                rows="2"
+                type="email"/>
+            <text_322830642
+                jcr:created="{Date}2018-10-31T18:31:59.820+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-31T18:32:53.362+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Message"
+                sling:resourceType="xeltech/components/form/text"
+                name="Message"
+                rows="2"
+                type="textarea"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

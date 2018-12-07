@@ -1,0 +1,85 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='xeltech.base'}"/>
+
+<div class="container">
+            <div class="menu-container page-scroll">
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>-->
+                
+                <a class="navbar-brand" href="#intro" style="padding: 0">
+                 
+                    <img src="/content/dam/xeltech/xelium-logo.png" alt="Logo">
+                </a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="menu-container">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll home active">
+                            <a href="#body"><sly data-sly-include="Home.html"/></a>
+                        </li>
+                         <li class="page-scroll">
+                            <a href="#services"><sly data-sly-include="whatwedo.html"/></a>
+                        </li> 
+		 <li class="page-scroll">
+                            <a href="#our"><sly data-sly-include="ourservices.html"/></a>
+                        </li> 
+                           <li class="page-scroll">
+                            <a href="#wt-do"><sly data-sly-include="ourapproach.html"/></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about_us"><sly data-sly-include="aboutus.html"/></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact"><sly data-sly-include="contactus.html"/></a>
+                        </li>                    
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            </div>
+
+        </div>
+
+
+
+<style>
+
+.menu-container {
+padding:0 40px;
+}
+.menu-container ul.nav.navbar-nav {
+    list-style: none;
+    padding: initial;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.menu-container.page-scroll a.navbar-brand {
+    float: left;
+}
+.menu-container ul.nav.navbar-nav li.page-scroll {
+    display: inline-block;
+    padding: 18px 10px;
+}
+
+.menu-container ul.nav.navbar-nav li.page-scroll a {
+    text-decoration: none;
+    font-size: 12.5px;
+    text-transform: uppercase;
+}
+.menu-container ul.nav.navbar-nav li.page-scroll a:hover {
+   color: #ff7508
+}
+.menu-container .collapse.navbar-collapse {
+    text-align: right;
+}
+
+ <script type="text/javascript" src="apps/xeltech/clientlibs/clientlib-base/jquery-migrate.min.js"></script>
+ <script type="text/javascript" src="apps/xeltech/clientlibs/clientlib-base/jquery.easing.min.js"></script>
+
+</style>
+

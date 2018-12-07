@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="69f27937-99ad-4cea-a66f-706eaa30d9a9">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="xeltech/xelium-logo.png"
+        jcr:lastModified="{Date}2018-10-22T13:09:42.165+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2018-10-22T13:09:41.497+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}0.19000038504600525"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}0.543334424495697"
+            dam:Progressive="no"
+            dam:sha1="bdf193fd9b32bb091d85d45ad9ed950296cd0429"
+            dam:size="{Long}32865"
+            dc:format="image/png"
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Long}163"
+            exif:PixelYDimension="{Long}57"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            tiff:ImageLength="{Long}57"
+            tiff:ImageWidth="{Long}163"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="3000000/10000"
+            tiff:YResolution="3000000/10000"
+            xmp:CreateDate="{Date}2016-12-23T12:19:12.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-01-31T17:23:54.000+05:30"
+            xmp:ModifyDate="{Date}2017-01-31T17:23:54.000+05:30"
+            xmpMM:DocumentID="xmp.did:1c7ce704-8dac-1342-af95-2153e3f13edf"
+            xmpMM:InstanceID="xmp.iid:1c7ce704-8dac-1342-af95-2153e3f13edf"
+            xmpMM:OriginalDocumentID="xmp.did:1c7ce704-8dac-1342-af95-2153e3f13edf">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:1c7ce704-8dac-1342-af95-2153e3f13edf"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2016-12-23T12:19:12.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2018-10-29T15:51:27.064+05:30"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

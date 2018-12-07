@@ -1,0 +1,91 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='css_id.base'}" data-sly-unwrap/>
+<p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
+
+<section id="contact" class="contacts-section">
+        <div class="container content-lg">
+            <div class="title-v1 contact-v1">
+                <h1>${properties.emailformtitle}</h1>
+				<p>${properties.emailformsubtitle @context='html'}</p>
+            </div>
+
+            <div class="row contacts-in">
+                <div class="col-md-6 md-margin-bottom-40">
+    				${properties.emailformaddress @context='html'}
+                    <!--<ul class="list-unstyled">
+
+                        <li><i class="fa fa-phone"></i>  +44-20 72398220  (UK)</li>
+						  
+<li style="padding-left: 44px; margin: -14px 0 !important;">  +91-8800464848  (APAC)</li>
+
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:sales@xeliumtech.uk">sales@xeliumtech.uk</a> </li>
+						<li style="    padding-left: 44px; margin: -14px 0 !important;"> <a href="mailto:hr@xeliumtech.uk">hr@xeliumtech.uk</a></li>
+                        <li><i class="fa fa-skype"></i> xelium.tech</li>
+<li>
+                        <strong>UK Office: </strong><br>
+                         <i class="fa fa-map-marker"></i>
+                        338 City Road,<br> 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;London EC1V 2PY
+                     
+                      </li>
+                    </ul>-->
+                </div>
+
+                <div class="col-md-6">
+					<div data-sly-resource="${'log' @ resourceType='wcm/foundation/components/parsys'}"></div>
+
+                    <!--<form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style" novalidate="novalidate">
+                        <fieldset>
+                            <label>Name</label>
+                            <div class="row">
+                                <div class="col-md-7 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                </div>                
+                            </div>
+                            
+                            <label>Email <span class="color-red">*</span></label>
+                            <div class="row">
+                                <div class="col-md-7 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <input type="text" name="email" id="email" class="form-control">
+                                    </div>
+                                </div>                
+                            </div>
+                            
+                            <label>Message</label>
+                            <div class="row">
+                                <div class="col-md-11 margin-bottom-20 col-md-offset-0">
+                                    <div>
+                                        <textarea rows="8" name="message" id="message" class="form-control"></textarea>
+                                    </div>
+                                </div>                
+                            </div>
+                            
+                             <p><button type="submit" class="btn btn-u btn-brd btn-brd-hover btn-u-dark" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing...">Send Message</button></p>
+
+                        </fieldset>
+
+                         <div class="message">
+                            <i class="rounded-x fa fa-check"></i>
+                            <p>Your message was successfully sent!</p>
+                        </div>
+                    </form> -->
+                </div>
+            </div>            
+        </div>
+
+ <!--       <div class="copyright-section">
+            <p>2017 © All Rights Reserved by <a target="_blank" href="#">Xeliumtech</a></p>-->
+<!--
+            <ul class="social-icons">
+                <li><a href="#" data-original-title="Facebook" class="social_facebook rounded-x"></a></li>
+                <li><a href="#" data-original-title="Twitter" class="social_twitter rounded-x"></a></li>
+                <li><a href="#" data-original-title="Goole Plus" class="social_googleplus rounded-x"></a></li>
+                <li><a href="#" data-original-title="Pinterest" class="social_pintrest rounded-x"></a></li>
+                <li><a href="#" data-original-title="Linkedin" class="social_linkedin rounded-x"></a></li>
+            </ul>
+-->
+     <!--        <span class="page-scroll"><a href="#intro"><i class="fa fa-angle-double-up back-to-top"></i></a></span>
+        </div>-->
+    </section>

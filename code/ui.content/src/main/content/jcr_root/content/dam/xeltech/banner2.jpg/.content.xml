@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="74e19723-af9e-43d8-b963-07fbcfaa524d">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="xeltech/banner2.jpg"
+        jcr:lastModified="{Date}2018-10-22T12:37:24.225+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2018-10-22T12:37:22.205+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}9.027777671813965"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}15.625"
+            dam:Progressive="yes"
+            dam:sha1="c31b02fe47f5927598fcd5dae0e54e783d8211ee"
+            dam:size="{Long}135218"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:ImageLength="{Long}650"
+            tiff:ImageWidth="{Long}1125"
+            xmp:CreateDate="{Date}2017-02-06T10:43:28.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-02-28T12:09:09.000+05:30"
+            xmp:ModifyDate="{Date}2017-02-28T12:09:09.000+05:30"
+            xmpMM:DocumentID="xmp.did:053EDABBEC9C11E6BD8CE9DE2C27088E"
+            xmpMM:InstanceID="xmp.iid:a365dbbd-2060-6e4a-9cf5-606f0eac66b0"
+            xmpMM:OriginalDocumentID="xmp.did:053EDABBEC9C11E6BD8CE9DE2C27088E">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:053EDAB9EC9C11E6BD8CE9DE2C27088E"
+                stRef:instanceID="xmp.iid:053EDAB8EC9C11E6BD8CE9DE2C27088E"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:a365dbbd-2060-6e4a-9cf5-606f0eac66b0"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-02-28T12:09:09.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

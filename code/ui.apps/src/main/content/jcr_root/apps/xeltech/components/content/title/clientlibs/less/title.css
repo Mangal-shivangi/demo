@@ -1,0 +1,22 @@
+.cmp-title__text {
+    color: #ccc;
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+     margin-top: 50px;
+}
+.cmp-title__text:after {
+    bottom: 0;
+    left: 50%;
+    height: 1px;
+    width: 70px;
+    content: " ";
+    margin-left: -35px;
+    position: absolute;
+    background: #ff7508;
+}

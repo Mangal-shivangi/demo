@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-11-27T15:06:58.210+05:30"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2018-11-27T15:06:58.210+05:30"
+        cq:lastTranslationUpdate="{Date}2018-11-27T15:06:13.998+05:30"
+        cq:template="/conf/xeltech/settings/wcm/templates/xeltech-sample"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/conf/xeltech/settings/cloudconfigs/translation/msft-translation/Any"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/xeltech/en/Home"
+        cq:translationStatus="READY_FOR_REVIEW"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="xeltech/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <blackstrip1
+                jcr:created="{Date}2018-11-27T12:15:13.368+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T12:20:53.886+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/Blackstrip1"
+                blackstriptitle="Call us 24X7 on our Toll-Free no +44-20 72398220"
+                type="h1"/>
+            <titletext1
+                jcr:created="{Date}2018-11-27T12:58:17.399+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T13:06:33.784+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/titletext1"
+                text="&lt;p>XeliumTech is your one stop Enterprise Software Solutions Company. Our passion for creativity, strong multitechnology development lineage, peripheral R&amp;amp;D services, 24X7 Support team make us a preferred choice for startups to big brands globally.&lt;/p>&#xd;&#xa;&lt;p>Our &amp;quot;CUSTOMER FIRST&amp;quot; approach ensures impeccable communication and hence solidarity with our esteemed customers. We have dedicated Business Analsysts, Project Controllers, Delivery Managers to ensure your Vision is seamlessly transformed into a blissful reality.&lt;/p>&#xd;&#xa;&lt;p>We are a diverse technology solutions company committed to cater to excellent user-centric solutions for all your IT related requirements. We are focused on assisting our clients to build notable and successful business solutions on Web to Mobile from idea conceptualization to deployment.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"
+                title="WHAT WE DO"
+                type="h1"/>
+            <titletext1_469624320
+                jcr:created="{Date}2018-11-27T14:12:54.354+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T14:13:09.442+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/titletext1"
+                textIsRich="true"
+                title="OUR SERVICES"
+                type="h1"/>
+            <titletext1_1977427211
+                jcr:created="{Date}2018-11-27T14:14:29.824+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T14:29:29.019+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/titletext1"
+                text="&lt;p>We follow Best Practices, Streamined Processes and put Cohesive Planned efforts to ensure On-time and High Quality Deliverables&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Customer Onboarding and Brainstorming Meetings&lt;/li>&#xd;&#xa;&lt;li>Understand and Recommend Industry Standard Do’s and Don’ts&lt;/li>&#xd;&#xa;&lt;li>Seamless communication and collaboration with Customer.&lt;/li>&#xd;&#xa;&lt;li>Identify the Best Technology &amp;amp; Cost effective Implementation for Client Project&lt;/li>&#xd;&#xa;&lt;li>Walk through User Stories, Wireframes &amp;amp; Prototypes for Customer Understanding&lt;/li>&#xd;&#xa;&lt;li>Devise Development plan and GO-TO-MARKET strategy&lt;/li>&#xd;&#xa;&lt;li>Create Adapative Smooth Rich User Interfaces&lt;/li>&#xd;&#xa;&lt;li>Agile Development, Sprints, Reviews, Scrum Meetings, Kanban&lt;/li>&#xd;&#xa;&lt;li>Synchronized Multi-environment Testing &amp;amp; Benchmarking&lt;/li>&#xd;&#xa;&lt;li>Deployment, Staging, Production and Launch&lt;/li>&#xd;&#xa;&lt;li>Digital Marketing Campaigns for Customer Engagement&lt;/li>&#xd;&#xa;&lt;li>24X7 Support Team to address you and your Customer Needs&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                textIsRich="true"
+                title="OUR APPROACH"
+                type="h1"/>
+            <titletext1_1014244494
+                jcr:created="{Date}2018-11-27T14:15:25.372+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T14:15:44.217+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/mycomponents/titletext1"
+                text="&lt;p>Our prime mantras are Quality, Values and Integrity. We, at Xelium Technologies incorporate these mantras in our work, to the core. We constantly innovate and improve our processes to offer comprehensive Offshore and Onsite Cost-effective High Quality software services to our customers. We make customers for a lifetime.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"
+                title="ABOUT US"
+                type="h1"/>
+            <image
+                jcr:created="{Date}2018-11-27T14:16:23.969+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-11-27T14:16:35.927+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="xeltech/components/content/image"
+                fileReference="/content/dam/xeltech/company.jpg"/>
+        </root>
+    </jcr:content>
+</jcr:root>

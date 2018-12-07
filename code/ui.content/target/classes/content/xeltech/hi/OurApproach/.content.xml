@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-11-27T15:07:36.539+05:30"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2018-11-27T15:07:36.540+05:30"
+        cq:lastTranslationUpdate="{Date}2018-11-27T15:06:14.069+05:30"
+        cq:template="/conf/xeltech/settings/wcm/templates/xeltech-sample"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/conf/xeltech/settings/cloudconfigs/translation/msft-translation/Any"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/xeltech/en/OurApproach"
+        cq:translationStatus="READY_FOR_REVIEW"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="OUR APPROACH"
+        sling:resourceType="xeltech/components/structure/page"/>
+</jcr:root>

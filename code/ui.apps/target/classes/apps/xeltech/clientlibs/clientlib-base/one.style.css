@@ -1,0 +1,518 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Description: Business, Corporate, Portfolio, Blog and One Page Theme.
+ * Version: 1.7
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+*/
+
+/*Import Global Compulsory CSS Files*/
+@import url(app.css);
+@import url(blocks.css);
+@import url(plugins.css);
+
+body {
+    width: 100%;
+    height: 100%;
+	color: #333; 
+	font-size: 14px;
+	line-height: 1.6;    
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #555;
+}
+.hi {text-align:center;}
+p, 
+li,
+li a { 
+   color: #555;
+}
+
+a {
+   color: #ff7508;
+   text-decoration: none;  
+}
+
+a,
+a:focus, 
+a:hover, 
+a:active {
+   outline: 0 !important;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+   color: #ff7508;
+   text-decoration: underline;
+}
+
+::selection {
+	color: #fff;
+	background: #ff7508;
+}
+.h_1 .col-md-3{text-align:center;} 
+/*Header
+------------------------------------*/
+/*Containers*/
+@media (min-width: 768px) and (max-width: 991px) {
+  	.one-page-header .menu-container {
+	    width: 720px;
+  	}
+	  #intro .fullscreenbanner-container[style] {
+    height: 541px !important;
+    margin-top: 68px !important;
+}
+}
+@media (max-width: 1199px) {
+/*
+	.tp-bgimg.defaultimg {
+    margin-top: -5%;
+	background-size: 100% !important;
+}
+*/
+
+
+	
+}
+
+@media (max-width: 991px) {
+		nav.one-page-header.navbar.navbar-default.navbar-fixed-top .container {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+	.one-page-header .menu-container:before,
+	.one-page-header .menu-container:after {
+		content: " ";
+		display: table;
+	}
+
+	.one-page-header .menu-container:after {
+		clear: both;
+	}
+
+	.one-page-header > .navbar-default > .container {
+		width: inherit;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+    	padding-right: 0;
+    }
+	
+	.one-page-header > .navbar-default > .container > .navbar-header,
+	.one-page-header > .navbar-default > .container > .navbar-collapse {
+	  	margin-left: 0;
+	  	margin-right: 0;
+	}
+}
+
+/*Navbar Logo*/
+.one-page-header .navbar-brand {
+	font-size: 31px;
+	font-weight: 200;
+	line-height: 15px;
+	color: #fff !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.one-page-header .navbar-brand span {
+	color: #ff7508 !important;
+}
+
+
+@media (max-width: 768px) {
+	
+	
+	.one-page-header .navbar-brand {
+		padding-left: 0;
+	}
+}
+
+/*Navbar Toggle*/
+.one-page-header .navbar-toggle {
+	border: none;
+	margin-right: 3px;
+	padding-right: 0;
+}
+
+.one-page-header .navbar-toggle:hover, 
+.one-page-header .navbar-toggle:focus {
+	background: none;
+}
+
+.one-page-header .navbar-toggle .icon-bar {
+	background: #fff;
+}
+
+.one-page-header .navbar-toggle .icon-bar {
+	height: 1px;
+	width: 25px;
+	font-size: 22px;
+	background: #72706f;
+	margin-bottom: 7px;
+}
+
+.one-page-header .navbar-toggle .icon-bar:last-child {
+	margin-bottom: 0;
+}
+
+/*Navbar*/
+.one-page-header {
+	border-bottom: none;
+	background: #fff;
+}
+
+.one-page-header .navbar-nav > li > a {
+	color: #000;
+	font-size: 12.5px;
+	text-transform: uppercase;
+}
+
+.one-page-header .navbar-nav > li > a:before {
+	left: -3px;
+	z-index: 2;
+	color: #000;
+	font-size: 4px;
+/*    content: "\f10c";*/
+	margin-right: 6px;
+	position: absolute;
+    font-family: FontAwesome;
+}
+
+.one-page-header .navbar-nav > li.home > a:before {
+	content: "";
+}
+
+.one-page-header .navbar-nav > li > a:hover {
+	z-index: 1;
+	color: #ff7508;
+}
+
+.one-page-header .navbar-nav > li > a:focus {
+	color: #ff7508;
+}
+
+.one-page-header .navbar-nav > .active > a, 
+.one-page-header .navbar-nav > .active > a:hover,
+.one-page-header .navbar-nav > .active > a:focus {
+	z-index: 1;
+	background: none;
+	color: #ff7508 !important;
+}
+
+/*Responsive Navbar*/
+@media (max-width: 991px) {
+	/*Responsive code for max-width: 991px*/
+    .one-page-header .navbar-header {
+        float: none;
+    }
+    
+    .one-page-header .navbar-toggle {
+        display: block;
+    }
+    
+    .one-page-header .navbar-collapse.collapse {
+        display: none !important;
+    }
+    
+    .one-page-header .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    
+    .one-page-header .navbar-nav {
+        margin: 16px 0 5px;
+        float: none !important;
+    }
+
+    .one-page-header .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+    	padding: 10px 0;
+    }
+
+    .navbar-default .navbar-nav > li > a::before {
+		content: '';
+	}
+}
+
+@media(min-width: 992px) {
+    .one-page-header.navbar {
+        padding: 20px 0;
+        -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        transition: background .3s ease-in-out,padding .3s ease-in-out;
+    }
+
+    .one-page-header.top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+	.one-page-header .navbar-nav > li > a:before {
+		content: " ";
+	}    
+	#intro .fullscreenbanner-container[style]{
+		    height: 540px !important;
+    margin-top: 35px !important;
+	}
+	
+}
+/*@media only screen and (device-width: 768px) {
+	#intro .fullscreenbanner-container[style]{
+		    height: 564px !important;
+    margin-top: 35px !important;
+	}
+	
+	
+}*/
+
+@media (max-width: 425px) {
+	  
+	#intro .fullscreenbanner-container[style] {
+    height: 420px !important;
+    margin-top: -82px !important;
+}
+}
+  /*@media
+ only screen and (min-width: 420px) and (max-width: 760px) {
+	
+	#intro .fullscreenbanner-container[style]{
+		height:420px !important; margin-top: 34px;
+	}
+  YOUR STYLES 
+}*/
+
+/*Navbar*/
+@media (min-width: 992px) {
+	.one-page-header.navbar .navbar-nav {
+		float: right;
+	}	
+}
+
+/*Navbar Language*/
+.one-page-header .navbar-language {
+	float: right;
+	list-style: none;
+}
+
+@media (max-width: 420px) {
+	.one-page-header .navbar-language {
+		display: none;
+	}
+	.fullscreenbanner-container.fullscreenbanner li  img{height:20% !important;}
+	#intro .fullscreenbanner-container[style]{
+		height:420px !important; margin-top: -72px !important;
+	}
+		#intro .fullscreenbanner-container .tp-bullets[style]{height:150px !important;}
+
+}
+@media (max-width: 320px) {
+	
+	#intro .fullscreenbanner-container[style]{
+		height:378px !important; margin-top: -85px !important;
+	}
+	
+	
+}
+
+@media (max-width: 991px) {
+	.one-page-header .navbar-language {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+}
+
+.one-page-header .navbar-language > li {
+	clear: both;
+	margin-top: 9px;
+	padding: 5px 13px;
+	border: 1px solid #fff;
+}
+
+.one-page-header .navbar-language > li > a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.one-page-header .navbar-language > li > a:hover {
+	text-decoration: none;
+}
+
+.one-page-header .navbar-language li img {
+	float: left;
+	width: 20px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.one-page-header .navbar-language > .open > a,
+.one-page-header .navbar-language > .open > a:hover,
+.one-page-header .navbar-language > .open > a:focus {
+	color: #fff;
+	border-color: #fff;
+	background: inherit;
+}
+
+.one-page-header .navbar-language > .open > a:focus {
+	color: #ff7508;
+}
+
+/*Dropdown Menu*/
+.one-page-header .navbar-language > li:hover > .dropdown-menu {
+	display: block;
+}
+
+.one-page-header .navbar-language > li.open > .dropdown-menu {
+	display: none;
+}
+
+.one-page-header .navbar-language .dropdown-menu li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.one-page-header.top-nav-collapse .navbar-language > li {
+	border-color: #d1d1d1;
+}
+
+.one-page-header.top-nav-collapse .navbar-language > li > a {
+	color: #777;
+}
+
+/*Fixed Header*/
+.one-page-header.top-nav-collapse {
+	background: #fff;
+	box-shadow: 0 0 3px #b5b5b5;
+}
+
+@media (max-width: 768px) {
+	.one-page-header.top-nav-collapse {
+		padding: 0;
+	}
+}
+
+.one-page-header.top-nav-collapse .navbar-brand,
+.one-page-header.top-nav-collapse .navbar-nav > li > a,
+.one-page-header.top-nav-collapse .navbar-nav > li > a:before {
+	color: #777;
+}
+
+.one-page-header.top-nav-collapse .navbar-brand {
+	color: #777 !important;	
+}
+
+/*Navbar Toggle*/
+.one-page-header.top-nav-collapse .navbar-toggle .icon-bar {
+	background: #555;
+}
+
+.one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {
+	background: #ff7508;
+}
+
+/*Intro Section
+------------------------------------*/
+/*Intro Section*/
+.intro-section {
+    background: #222;
+}
+
+.intro-section:after {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/*About Section
+------------------------------------*/
+/*About Section*/
+.about-section {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.block-v1 {
+	padding: 50px 0;
+}
+
+.about-section .about-image {
+    padding-top: 10px;
+}
+
+/*Icon Lists*/
+.content-boxes-v3 i.icon-custom {
+	margin-right: 8px;
+}
+
+.content-boxes-v3 h2 {
+	font-size: 15px; 
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Style for Cube Portfolio wrapper*/
+.cube-portfolio #filters-container {
+	text-align: center;
+}
+
+.cube-portfolio #filters-container .cbp-filter-item-active {
+	background: #ff7508;
+	border-color: #ff7508;
+}
+
+.cube-portfolio .cbp-l-filters-button .cbp-filter-counter {
+	color: #fff;
+	background: #ff7508;
+}
+
+.cube-portfolio .cbp-l-filters-button .cbp-filter-counter:before {
+	border-top-color: #ff7508;
+}
+/*
+	.service-block.service-block-default p,
+	.service-block.service-block-default h2 {
+    text-align: left!important;
+		padding-left: 70px;
+		
+}
+*/
+i.icon-custom.icon-lg.icon-bg-u.rounded-x {
+    position: absolute;
+    left: 41px;
+	top: 37px;
+}
+
+
+#about .block-v1 .content-boxes-in-v3 h2.heading-sm ,
+#about .block-v1 .col-md-3.md-margin-bottom-30 h2.heading-sm {
+    padding-left: 40px;
+}
+@media (max-width: 768px) {
+#about .block-v1 .content-boxes-in-v3 h2.heading-sm, #about .block-v1 .col-md-3.md-margin-bottom-30 h2.heading-sm {
+    padding-bottom: 10px;
+    padding-top: 10px;	
+	font-weight: 600;
+}
+#services .service-block.service-block-default h2, #services .service-block.service-block-default p {
+    text-align: left;
+    padding-left: 70px;
+}
+	#about h2.heading-sm {
+    font-size: 18px;
+}
+nav.one-page-header.navbar.navbar-default.navbar-fixed-top .container {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+/*	custom*/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>xeltech Sites Project - UI apps</comment>
+<entry key="createdBy">user</entry>
+<entry key="name">xeltech.ui.apps</entry>
+<entry key="created">2018-10-11T13:32:54.294+0530</entry>
+<entry key="groupId">com.org.xeltech</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">xeltech/xelium</entry>
+<entry key="description">UI apps package for xeltech Sites Project</entry>
+<entry key="artifactId">xeltech.ui.apps</entry>
+<entry key="path">/etc/packages/xeltech/xelium/xeltech.ui.apps.zip</entry>
+</properties>

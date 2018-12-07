@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="msft-translation"
+        cq:lastModified="{Date}2018-10-23T12:03:11.172+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-10-24T13:48:18.764+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/libs/cq/translation/templates/msft/msft-servicepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English-any"
+        jcr:uuid="b192cbb4-1b54-4bc5-ad6d-ba7e8be5023c"
+        sling:resourceSuperType="cq/cloudserviceconfigs/components/configpage"
+        sling:resourceType="cq/translation/components/msft/msft-cloudconfig"
+        subscriptionkey="d9ff1b4cb7464141a7414ab9a9aa486e"/>
+</jcr:root>

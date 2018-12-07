@@ -1,0 +1,36 @@
+.cmp-text p{
+
+         font-size: 17px;
+    	 font-weight: 200;
+         color:#B3B3B3;
+
+    }
+.cmp-text ul {
+    float: left;
+    clear: none;
+    width: 50%;
+    position: relative;
+}
+ .cmp-text{
+            clear: both;
+
+ }
+        .cmp-text ul li {
+    color: #fff;
+}
+.cmp-text ul li:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f1ce";
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+    color: #ff7508 !important;
+    position: absolute;
+    left: -6px;
+    margin-top: 6px;
+}
+
